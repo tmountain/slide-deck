@@ -1,0 +1,75 @@
+html {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  color: #293c4b;
+}
+
+.centered {
+  text-align: center;
+}
+
+h1 {
+ font-size: 2em;
+ margin: 0 0 0 0;
+}
+
+h3 {
+ font-size: 1em;
+ margin-top: 5%;
+ margin-left: 5%;
+}
+
+p {
+ font-size: 1.0em;
+}
+
+pre {
+ font-size: 1.0em;
+}
+
+ul {
+ font-size: 1.5em;
+}
+
+ul ul {
+ font-size: 1em;
+ margin-left: 5%;
+}
+
+.aligner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.alignerItem {
+  max-width: 80%;
+}
+
+.slideContainer {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 15px;
+  background-color: #ecf0f1;
+}
+
+.slideItem {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.dark-primary-color    { background: #689F38; }
+.default-primary-color { background: #8BC34A; }
+.light-primary-color   { background: #DCEDC8; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #FF9800; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
